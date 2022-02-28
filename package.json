@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "serverless offline start",
+    "predev": "npm run codegen",
     "codegen": "graphql-codegen --config codegen.yml"
   },
   "author": "",
